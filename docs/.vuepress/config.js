@@ -114,6 +114,27 @@ module.exports = {
                     ['/sgg/7.补充/JS类的复习', 'JS类的复习'],
                 ]
             },
+            {
+                title: '内容',
+                collapsable: false,
+                sidebarDepth: 2,
+                children: [
+                    ['/深入理解TypeScript编程/chapter1', 'chapter1'],
+                    ['/深入理解TypeScript编程/chapter2', 'chapter2'],
+                    ['/深入理解TypeScript编程/chapter3', 'chapter3'],
+                    ['/深入理解TypeScript编程/chapter4_函数', 'chapter4_函数'],
+                    ['/深入理解TypeScript编程/chapter5_类和接口', 'chapter5_类和接口'],
+                ]
+            },
+            {
+                title: '更多',
+                collapsable: false,
+                sidebarDepth: 2,
+                children: [
+                    ['/深入理解TypeScript编程/补充/JS类的概念', 'JS类的概念'],
+                    ['/深入理解TypeScript编程/补充/声明生成类型', '声明生成类型'],
+                ]
+            },
         ]
     }
 }
