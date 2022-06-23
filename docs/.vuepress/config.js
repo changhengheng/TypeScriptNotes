@@ -15,6 +15,14 @@ module.exports = {
         ],
         sidebar: [
             {
+                title: '知识点',
+                collapsable: false,
+                sidebarDepth: 2,
+                children: [
+                    ['/知识点对照列表', '知识点对照列表'],
+                ]
+            },
+            {
                 title: '0.准备工作',
                 collapsable: false,
                 sidebarDepth: 2,
@@ -78,7 +86,7 @@ module.exports = {
                 collapsable: false,
                 sidebarDepth: 2,
                 children: [
-                    ['/sgg/4.函数/1.函数', '类'],
+                    ['/sgg/4.函数/1.函数', '函数'],
                     ['/sgg/4.函数/2.可选参数和默认参数', '可选参数和默认参数'],
                     ['/sgg/4.函数/3.剩余参数', '剩余参数'],
                     ['/sgg/4.函数/4.函数重载', '函数重载'],
@@ -124,6 +132,7 @@ module.exports = {
                     ['/深入理解TypeScript编程/chapter3', 'chapter3'],
                     ['/深入理解TypeScript编程/chapter4_函数', 'chapter4_函数'],
                     ['/深入理解TypeScript编程/chapter5_类和接口', 'chapter5_类和接口'],
+                    ['/深入理解TypeScript编程/chapter6', 'chapter6'],
                 ]
             },
             {
@@ -133,6 +142,9 @@ module.exports = {
                 children: [
                     ['/深入理解TypeScript编程/补充/JS类的概念', 'JS类的概念'],
                     ['/深入理解TypeScript编程/补充/声明生成类型', '声明生成类型'],
+                    ['/深入理解TypeScript编程/补充/疑问点', '疑问点'],
+                    ['/深入理解TypeScript编程/补充/ES6模块化', 'ES6模块化'],
+                    ['/案例/案例的知识点', '案例的知识点'],
                 ]
             },
         ]
